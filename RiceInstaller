@@ -70,14 +70,14 @@ logo "Installing needed packages.."
 					 maim pamixer libwebp webp-pixbuf-loader xorg-xkill papirus-icon-theme \
 					 ttf-jetbrains-mono ttf-terminus-nerd ttf-inconsolata ttf-joypixels
 					 
-	yay -S bspwm-git termite xtitle \
+	yay -S bspwm termite xtitle \
 		   nerd-fonts-jetbrains-mono nerd-fonts-cozette-ttf scientifica-font 
 			  
 clear
 			 
 logo "Cloning Rice!"
 printf "Cloning rice from https://github.com/pxledit/dotfiles\n\n"
-git clone --depth=1 https://github.com/pxledit/dotfile.git
+git clone --depth=1 https://github.com/komi7/test.git
 sleep 2
 clear
 
